@@ -1,33 +1,33 @@
 === Essential WP Tools ===
-Contributors: ractstudio, mhrubel
-Donate link: https://www.patreon.com/RactStudio
-Tags: share, ad, email, enable, disable
-Requires at least: 5.4.3
-Tested up to: 6.4.3
-Stable tag: 1.0.0
-Requires PHP: 7.4
-Network: true
-License: GPL v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Contributors:		ractstudio, mhrubel
+Donate link:			https://www.patreon.com/RactStudio
+Requires at least:	5.3.0
+Tested up to:		6.5.3
+Stable tag:				1.0.0
+Requires PHP:		7.4
+License:					GPLv2 or later
+License URI:			https://www.gnu.org/licenses/gpl-2.0.html
+Tags:						essential, tools, share, ad, wp
 
 = Short Description =
-Essential WP Tools - Must-have plugin for every site. Boosts security, performance, customizability, and more in one.
+
+Essential WP Tools is a Must-have plugin for every site. Boosts security, performance, customizability, and many more.
 
 == Description ==
 
 Essential WP Tools is the all-in-one solution for optimizing, securing, and enhancing your WordPress website. With a comprehensive suite of features, this plugin empowers website owners to streamline their site management, boost performance, and fortify security effortlessly.
 
-EWPT (Essential WP Tools) plugin has currently six main modules.
+EWPT (Essential WP Tools) plugin has currently six (06) main modules.
 
 == Current Modules List: ==
 
-1. Essential Tools: Enable/disable various features in your WordPress environment and other technologies on your website.
-2. Social Share: Integrate social share buttons into posts, pages, and custom post types with customization options.
-3. Ads Insert: Complete Ads placement suite for Google or any other providers.
-4. Email Manager: Customize default sender name, email address, and send HTML templates (under development) based emails.
-5. Maintenance Mode: Add site-wide 'Maintenance Mode' exclusively for non-logged-in users.
-6. System Info: Access WordPress, Database, PHP, and Developer etc. info.
-7. Sample Module: This is a sample module for developers to build modules for EWPT.
+1. Essential Tools: Effortlessly switch between and customize a variety of features and technical components on your WordPress site.
+2. Social Share Hub: Integrate social share hub (buttons) into posts, pages, and custom post types with customization options.
+3. Ads Insert Hub: Manage ad placement on your website with our comprehensive module, compatible with Google Ads and other leading providers.
+4. Email Manager Hub: Manage your WordPress site's email sender's name and email address, and in future we will add stunning HTML template-based emails.
+5. Maintenance Mode: Maintenance Mode across your site, tailored to different user roles. Customize the maintenance page with our feature-rich customizer.
+6. System Info: Access PHP Info, WordPress Info, Database Info, and Developer Info etc.
+7. Sample Module: This is a sample module for developers to build module for EWPT.
 
 == Key Features: ==
 
@@ -81,14 +81,11 @@ This is the first version of Essential WP Tools. No upgrade necessary at this ti
 
 For support and assistance, please visit the [Essential WP Tools Support Forum](https://wordpress.org/support/plugin/essential-wp-tools).
 
-== Contributing ==
-
-If you'd like to contribute to the development of Essential WP Tools, please visit the [GitHub repository](https://github.com/essential-wp-tools) to submit pull requests or report issues.
-
 == Credits ==
 
-RactStudio,
-Mahamudul Hasan Rubel
+[RactStudio](https://ractstudio.com/),
+[Mahamudul Hasan Rubel](https://mhr.ractstudio.com/)
+
 
 == License ==
 
