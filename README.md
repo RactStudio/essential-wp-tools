@@ -8,7 +8,7 @@ Essential WP Tools is the all-in-one solution for optimizing, securing, and enha
 
 ## At a Glance
 
-* Contributors:		    @ractstudio, @mhrubel
+* Contributors:		    @mhrubel and @ractstudio
 * Donate link:			  https://www.patreon.com/RactStudio
 * Requires at least:  5.3 (WordPress Version)
 * Tested up to:		    6.5.3 (WordPress Version)
