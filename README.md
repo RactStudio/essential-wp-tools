@@ -17,7 +17,7 @@ Essential WP Tools is the all-in-one solution for optimizing, securing, and enha
 * License:					  GPLv2 or later
 * License URI:			  https://www.gnu.org/licenses/gpl-2.0.html
 
-### Essential WP Tools is a must-have plugin for every sit. Boosts security, performance, customizability, and much more.
+### Essential WP Tools is a must-have plugin for every WordPress website. Boosts security, performance, customizability, and much more.
 
 ## Available Modules List:
 
