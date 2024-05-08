@@ -6,7 +6,7 @@ Essential WP Tools is the all-in-one solution for optimizing, securing, and enha
 ## Download here: [Download on Github Releases](https://github.com/RactStudio/essential-wp-tools/releases)
 ## WordPress.org: [Download on WordPress.org](https://wordpress.org/plugins/essential-wp-tools/)
 
-## At a glance
+## At a Glance
 
 * Contributors:		    @ractstudio, @mhrubel
 * Donate link:			  https://www.patreon.com/RactStudio
