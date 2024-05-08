@@ -1,25 +1,25 @@
-=== Essential WP Tools ===
-Contributors:		ractstudio, mhrubel
-Donate link:			https://www.patreon.com/RactStudio
-Requires at least:	5.3.0
-Tested up to:		6.5.3
-Stable tag:				1.0.0
-Requires PHP:		7.4
-License:					GPLv2 or later
-License URI:			https://www.gnu.org/licenses/gpl-2.0.html
-Tags:						essential, tools, share, ad, wp
+# EWPT - Essential WP Tools
 
-= Short Description =
+Essential WP Tools is the all-in-one solution for optimizing, securing, and enhancing your WordPress website. With a comprehensive suite of features, this plugin empowers website owners to streamline their site management, boost performance, and fortify security effortlessly. Project website: https://ewpt.ractstudio.com/
 
-Essential WP Tools is a Must-have plugin for every site. Boosts security, performance, customizability, and many more.
+## WordPress Plugin **[Essential WP Tools](https://ewpt.ractstudio.com/)** `v1.0.0`
+## Download here: [Download on Github Releases](https://github.com/RactStudio/essential-wp-tools/releases)
+## WordPress.org: [Download on WordPress.org](https://wordpress.org/plugins/essential-wp-tools/)
 
-== Description ==
+## At a glance
 
-Essential WP Tools is the all-in-one solution for optimizing, securing, and enhancing your WordPress website. With a comprehensive suite of features, this plugin empowers website owners to streamline their site management, boost performance, and fortify security effortlessly.
+* Contributors:		    @ractstudio, @mhrubel
+* Donate link:			  https://www.patreon.com/RactStudio
+* Requires at least:  5.3 (WordPress Version)
+* Tested up to:		    6.5.3 (WordPress Version)
+* Stable tag:			    1.0.0 (Essential WP Tools)
+* Requires PHP:		    7.4
+* License:					  GPLv2 or later
+* License URI:			  https://www.gnu.org/licenses/gpl-2.0.html
 
-EWPT (Essential WP Tools) plugin has currently six (06) main modules.
+### Essential WP Tools is a must-have plugin for every sit. Boosts security, performance, customizability, and much more.
 
-== Current Modules List: ==
+## Available Modules List:
 
 1. Essential Tools: Effortlessly switch between and customize a variety of features and technical components on your WordPress site.
 2. Social Share Hub: Integrate social share hub (buttons) into posts, pages, and custom post types with customization options.
@@ -29,7 +29,7 @@ EWPT (Essential WP Tools) plugin has currently six (06) main modules.
 6. System Info: Access PHP Info, WordPress Info, Database Info, and Developer Info etc.
 7. Sample Module: This is a sample module for developers to build module for EWPT.
 
-== Key Features: ==
+## Key Features
 
 - Performance Optimization: Improve website speed and performance.
 - Essential Utilities: Access a range of essential utilities as modules.
@@ -41,52 +41,44 @@ EWPT (Essential WP Tools) plugin has currently six (06) main modules.
 
 Whether you're a beginner or an experienced WordPress user, Essential WP Tools offers everything you need to optimize, secure, and enhance your WordPress website in one powerful plugin.
 
-== Installation ==
+## Installation
 
 1. Upload the `essential-wp-tools` folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Configure the plugin settings via the 'EWPT Dashboard' named menu in the WordPress admin dashboard.
 
-== Screenshots ==
 
-1. screenshot-1.png : This is the main dashboard of the "Essential WP Tools" plugin. Here you can see all enabled modules.
-2. screenshot-2.png : This is the "Modules Manager" on the dashboard of the main plugin. Here you can enable/disable modules as per your needs.
-3. screenshot-3.png : This is a core module of the "Essential WP Tools" plugin named "Essential Tools". Here you can enable/disable various WordPress default features.
-4. screenshot-4.png : This is another picture of the media settings tab of the "Essential Tools" module. Here you can enable/disable various media features. Explore other tabs for more options.
-5. screenshot-5.png : This is a core module of the "Ads Insert" module. This module can show all kinds of HTML text-based ads on the site frontend automatically or via shortcode. You can create multiple designs and slots as well.
-6. screenshot-6.png : This is a simple core module "Email Manager" for your outgoing emails.
-7. screenshot-7.png : This is a simple core module "Maintenance Mode" for your site frontend.
-8. screenshot-8.png : This is a core module of the EWPT plugin named "Social Share". Here you can choose and customize various social buttons and display them on the frontend automatically or via shortcode. You can create multiple designs and slots as well.
-9. screenshot-9.png : This is a core module of the EWPT plugin named "System Info". In this picture, you are seeing the PHP info of the server of this website. You can disable this as well to not load this system info page.
+## Frequently Asked Questions
 
-== Frequently Asked Questions ==
-
-= How do I configure the plugin settings? =
+### How do I configure the plugin settings?
 You can configure the plugin settings by navigating to the 'EWPT Dashboard' menu in the WordPress admin dashboard. From there, you can access various "modules" related to optimization, security, and customization. Enable or disable them based on your necessity.
 
-= Is Essential WP Tools compatible with my WordPress theme and plugin? =
+### Are Essential WP Tools compatible with my WordPress theme and plugin?
 Essential WP Tools is designed to work with any WordPress theme and plugin. However, if you encounter any compatibility issues, please contact us for assistance.
 
-== Changelog ==
+## Changelog
 
-= v1.0.0 =
+### v1.0.0
+* Initial release of Essential WP Tools v1.0.0
 
-* Initial release of Essential WP Tools.
+## Upgrade Notice
 
-== Upgrade Notice ==
+This is the first version of Essential WP Tools. No upgrade is necessary at this time.
 
-This is the first version of Essential WP Tools. No upgrade necessary at this time.
+## Support
 
-== Support ==
+### [WordPress.org Support Forum](https://wordpress.org/support/plugin/essential-wp-tools).
+### [Essential WP Tools Contact](https://ewpt.ractstudio.com/contact/).
+### [RactStudio.com Contact Form](https://ractstudio.com/contact/).
+### Emails: ractstudio@gmail.com, ractstudioteam@gmail.com, bd.mhrubel@gmail.com
+### WhatsApp/Telegram: +8801734998405
 
-For support and assistance, please visit the [Essential WP Tools Support Forum](https://wordpress.org/support/plugin/essential-wp-tools).
+## Credits
 
-== Credits ==
-
-[RactStudio](https://ractstudio.com/),
+[RactStudio](https://ractstudio.com/), 
 [Mahamudul Hasan Rubel](https://mhr.ractstudio.com/)
 
 
-== License ==
+## License
 
 Essential WP Tools is licensed under the GPL v2 or later.
