@@ -9,6 +9,8 @@ License:					GPLv2 or later
 License URI:			https://www.gnu.org/licenses/gpl-2.0.html
 Tags:						seo, security, share, performance, maintenance
 
+Essential WP Tools is a must-have all-in-one solution for customizing, optimizing, securing, and enhancing your all kinds of WordPress website.
+
 == Description ==
 
 Essential WP Tools is a must-have all-in-one solution for customizing, optimizing, securing, and enhancing your all kinds of WordPress website. With a comprehensive suite of features, this plugin (EWPT) empowers website owners to streamline their site management, boost performance, and fortify security effortlessly.
@@ -62,7 +64,7 @@ Essential WP Tools is designed to work with any WordPress theme and plugin. Howe
 
 == Upgrade Notice ==
 
-Currently there is a minor update available. Please upgrade to the newest version (EWPT v1.0.1).
+Currently there is a major update available. Please upgrade to the newest version (EWPT v2.0.0).
 
 == Changelog ==
 
