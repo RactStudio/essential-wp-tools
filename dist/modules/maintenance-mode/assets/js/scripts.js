@@ -1,4 +1,0 @@
-/**
-** EWPT
-** Maintenance Mode JavaScripts
-**/
