@@ -2,7 +2,7 @@
 
 Essential WP Tools is the all-in-one solution for optimizing, securing, and enhancing your WordPress website. With a comprehensive suite of features, this plugin empowers website owners to streamline their site management, boost performance, and fortify security effortlessly. Project website: https://ewpt.ractstudio.com/
 
-## WordPress Plugin **[Essential WP Tools](https://ewpt.ractstudio.com/)** `v1.0.0`
+## WordPress Plugin **[Essential WP Tools](https://ewpt.ractstudio.com/)** `v2.0.0`
 ## Download here: [Download on Github Releases](https://github.com/RactStudio/essential-wp-tools/releases)
 ## WordPress.org: [Download on WordPress.org](https://wordpress.org/plugins/essential-wp-tools/)
 
@@ -12,7 +12,7 @@ Essential WP Tools is the all-in-one solution for optimizing, securing, and enha
 * Donate link:			  https://www.patreon.com/RactStudio
 * Requires at least:  5.3 (WordPress Version)
 * Tested up to:		    6.5.3 (WordPress Version)
-* Stable tag:			    1.0.0 (Essential WP Tools)
+* Stable tag:			    2.0.0 (Essential WP Tools)
 * Requires PHP:		    7.4
 * License:					  GPLv2 or later
 * License URI:			  https://www.gnu.org/licenses/gpl-2.0.html
@@ -24,10 +24,8 @@ Essential WP Tools is the all-in-one solution for optimizing, securing, and enha
 1. Essential Tools: Effortlessly switch between and customize a variety of features and technical components on your WordPress site.
 2. Social Share Hub: Integrate social share hub (buttons) into posts, pages, and custom post types with customization options.
 3. Ads Insert Hub: Manage ad placement on your website with our comprehensive module, compatible with Google Ads and other leading providers.
-4. Email Manager Hub: Manage your WordPress site's email sender's name and email address, and in future we will add stunning HTML template-based emails.
-5. Maintenance Mode: Maintenance Mode across your site, tailored to different user roles. Customize the maintenance page with our feature-rich customizer.
-6. System Info: Access PHP Info, WordPress Info, Database Info, and Developer Info etc.
-7. Sample Module: This is a sample module for developers to build module for EWPT.
+4. Maintenance Mode: Maintenance Mode across your site, tailored to different user roles. Customize the maintenance page with our feature-rich customizer.
+5. System Info: Access PHP Info, WordPress Info, Database Info, and Developer Info etc.
 
 ## Key Features
 
