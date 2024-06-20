@@ -11,7 +11,7 @@ Essential WP Tools is the all-in-one solution for optimizing, securing, and enha
 * Contributors:		    @mhrubel and @ractstudio
 * Donate link:			  https://www.patreon.com/RactStudio
 * Requires at least:  5.3 (WordPress Version)
-* Tested up to:		    6.5.3 (WordPress Version)
+* Tested up to:		    6.5.4 (WordPress Version) (Should work on later version)
 * Stable tag:			    2.0.0 (Essential WP Tools)
 * Requires PHP:		    7.4
 * License:					  GPLv2 or later
@@ -25,7 +25,7 @@ Essential WP Tools is the all-in-one solution for optimizing, securing, and enha
 2. Social Share Hub: Integrate social share hub (buttons) into posts, pages, and custom post types with customization options.
 3. Ads Insert Hub: Manage ad placement on your website with our comprehensive module, compatible with Google Ads and other leading providers.
 4. Maintenance Mode: Maintenance Mode across your site, tailored to different user roles. Customize the maintenance page with our feature-rich customizer.
-5. System Info: Access PHP Info, WordPress Info, Database Info, and Developer Info etc.
+5. System Info: Access PHP Info, WordPress Info, Database Info, Developer Info etc.
 
 ## Key Features
 
