@@ -65,7 +65,7 @@ Essential WP Tools is designed to work with any WordPress theme and plugin. Howe
 
 ## Upgrade Notice
 
-This is the first version of Essential WP Tools. No upgrade is necessary at this time.
+Currently, there is a major update available. Please upgrade to the newest version (EWPT v2.0.0).
 
 ## Support
 
