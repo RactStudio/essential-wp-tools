@@ -60,8 +60,8 @@ Essential WP Tools is designed to work with any WordPress theme and plugin. Howe
 * Initial release of Essential WP Tools v1.0.0
 
 ### v2.0.0
-**Commits**: https://github.com/RactStudio/essential-wp-tools/commits/2.0.0
-**Compare**: https://github.com/RactStudio/essential-wp-tools/compare/1.0.0...2.0.0
+* **Commits**: https://github.com/RactStudio/essential-wp-tools/commits/2.0.0
+* **Compare**: https://github.com/RactStudio/essential-wp-tools/compare/1.0.0...2.0.0
 
 ## Upgrade Notice
 
