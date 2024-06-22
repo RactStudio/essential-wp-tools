@@ -681,11 +681,26 @@ class ewpt {
 
 		// Set permissions for the unzip directory
 		if (!$wp_filesystem->chmod($unzip_dir, 0755)) {
+			self::delete_module_dir($unzip_dir);
 			wp_send_json_error(array('message' => '<strong>Failed to set permissions on the unzip directory.</strong>'));
+			exit;
 		}
 
 		// Use unzip_file() for unzipping the file
 		$unzip_result = unzip_file($file_path, $unzip_dir);
+		
+		// Check if the module zip file exists and delete
+		if ( ! $wp_filesystem->exists($file_path) ) {
+			error_log('EWPT: Module zip file does not exist: ' . $file_path);
+		} else {
+			// Try to delete the uploaded module zip file
+			if ( ! $wp_filesystem->delete($file_path) ) {
+				error_log('EWPT: Failed to delete module zip file: ' . $file_path);
+			} else {
+				error_log('EWPT: Module zip file deleted successfully: ' . $file_path);
+			}
+		}
+
 
 		if (is_wp_error($unzip_result)) {
 			return $unzip_result;
@@ -697,7 +712,9 @@ class ewpt {
 			$file_path = $unzip_dir . DIRECTORY_SEPARATOR . $file;
 			if (is_file($file_path)) {
 				if (!$wp_filesystem->chmod($file_path, 0644)) {
+					self::delete_module_dir($unzip_dir);
 					wp_send_json_error(array('message' => '<strong>Failed to set permissions on the files inside the unzip directory.</strong>'));
+					exit;
 				}
 			}
 		}
@@ -708,6 +725,7 @@ class ewpt {
 		if (count($module_folder) !== 1 || !is_dir($unzip_dir . DIRECTORY_SEPARATOR . reset($module_folder))) {
 			self::delete_module_dir($unzip_dir);
 			wp_send_json_error(array('message' => '<strong>Module directory does not exist or multiple directories found.</strong>'));
+			exit;
 		}
 
 		return array('module_name' => reset($module_folder), 'unzip_dir' => $unzip_dir);
