@@ -14,7 +14,7 @@
  * Plugin Name: Essential WP Tools
  * Plugin URI: https://ewpt.ractstudio.com/
  * Description: Essential WP Tools is a must-have plugin that offers everything you need to customize, optimize, secure, and enhance your WordPress website in one powerful plugin.
- * Version: 2.0.0
+ * Version: 2.0.1
  * Author: RactStudio
  * Author URI: https://ractstudio.com/
  * License: GPLv2 or later
@@ -29,7 +29,7 @@ if (!defined('ABSPATH')) {
 //Defined Parameters
 DEFINE("EWPT_FULL_NAME", "Essential WP Tools");
 DEFINE("EWPT_SHORT_NAME", "EWPT");
-DEFINE("EWPT_VERSION_NO", "2.0.0");
+DEFINE("EWPT_VERSION_NO", "2.0.1");
 DEFINE("EWPT_PLUGIN_DESC", "A must-have plugin for every WordPress site, providing essential features for security, performance, and beyond.");
 DEFINE("EWPT_FULL_SLUG", "essential-wp-tools");
 DEFINE("EWPT_SHORT_SLUG", "ewpt");
