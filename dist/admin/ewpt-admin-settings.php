@@ -1151,8 +1151,8 @@ function ewpt_essential_wp_tools_settings_page() {
 					</header>
 					<div>
 						<p id="confirm-message">
-							Module uploaded successfully.<br />
-							Do you want to activate it?
+							<strong>Module uploaded successfully.</strong><br />
+							<strong>Would you like to activate the module?</strong>
 						</p>
 					</div>
 					<footer>
@@ -1162,8 +1162,8 @@ function ewpt_essential_wp_tools_settings_page() {
 				</div>
 			</div>
 			
-			<!-- Merge Module Modals -->
-			<div id="mergeModuleModal" class="ewpt modal">
+			<!-- Replace Module Modals -->
+			<div id="replaceModuleModal" class="ewpt modal">
 				<div class="modal-content">
 					<span class="close">&times;</span>
 					<header>
@@ -1171,13 +1171,14 @@ function ewpt_essential_wp_tools_settings_page() {
 					</header>
 					<div>
 						<p id="confirm-message">
-							Module with the same name already exists!<br />
-							Are you sure you want to merge the existing module?
+							<strong>Module with the same name already exists!</strong><br />
+							<strong>Are you sure you want to replace the module?</strong><br />
+							<small style="color:rgba(216, 67, 21,1.0);">Note: Replacing this module will result in the loss of any previous code changes made to this module.</small>
 						</p>
 					</div>
 					<footer>
-						<button id="confirmMergeModule" class="ok button">Yes, Merge Module</button>
-						<button id="cancelMergeModule" class="cancel button">Cancel</button>
+						<button id="confirmReplaceModule" class="ok button">Yes, Replace Module</button>
+						<button id="cancelReplaceModule" class="cancel button">Cancel</button>
 					</footer>
 				</div>
 			</div>
@@ -1191,7 +1192,7 @@ function ewpt_essential_wp_tools_settings_page() {
 					</header>
 					<div>
 						<p id="confirm-delete-message">
-							Are you sure you want to delete this module?<br/>
+							<strong>Are you sure you want to delete this module?</strong><br/>
 							Module: <strong id="confirm-delete-module-name"></strong>
 						</p>
 					</div>
@@ -1274,9 +1275,9 @@ function ewpt_essential_wp_tools_settings_page() {
 						success: function(response) {
 							if (response.success) {
 								uploadedModuleName = response.data.module_name;
-								if (response.data.merge_option) {
+								if (response.data.replace_option) {
 									if (!response.data.module_active) {
-										$('#mergeModuleModal').show();
+										$('#replaceModuleModal').show();
 									} else {
 										showModal('saveModal', '<strong>Module uploaded successfully and is already active.</strong>', 'success');
 									}
@@ -1295,17 +1296,17 @@ function ewpt_essential_wp_tools_settings_page() {
 					}, ajaxRetryLimit);
 				});
 
-				// Confirm merge module
-				$('#confirmMergeModule').on('click', function() {
+				// Confirm replace module
+				$('#confirmReplaceModule').on('click', function() {
 					var formData = new FormData();
-					formData.append('action', 'ewpt_merge_module');
+					formData.append('action', 'ewpt_replace_module');
 					formData.append('module_name', uploadedModuleName);
 					formData.append('ewpt_upload_nonce', $('#ewpt_upload_nonce').val());
 					formData.append('ewpt_module_file', moduleFile);
 
 					ewptMask.show();
 
-					$('#mergeModuleModal').hide();
+					$('#replaceModuleModal').hide();
 
 					retryAjax({
 						url: '<?php echo esc_url(admin_url('admin-ajax.php')); ?>',
@@ -1324,10 +1325,10 @@ function ewpt_essential_wp_tools_settings_page() {
 					}, ajaxRetryLimit);
 				});
 
-				// Close modal on cancel merge
-				$('#cancelMergeModule').on('click', function() {
+				// Close modal on cancel replace
+				$('#cancelReplaceModule').on('click', function() {
 					ewptMask.show();
-					$('#mergeModuleModal').hide();
+					$('#replaceModuleModal').hide();
 					reloadPageContent('', '');
 				});
 
@@ -1493,7 +1494,7 @@ function ewpt_essential_wp_tools_settings_page() {
 	<?php
 }
 
-	// AJAX actions for handling module upload, merge, activation, and deletion
+	// AJAX actions for handling module upload, replace, activation, and deletion
 	add_action('wp_ajax_ewpt_upload_module', function () {
 		if (!ewpt::check_nonce('ewpt_upload_nonce')) {
 			wp_send_json_error(array('message' => '<strong>Security (nonce) verification failed!</strong><br/>Reload the page and try again.'));
@@ -1550,7 +1551,6 @@ function ewpt_essential_wp_tools_settings_page() {
 			if ($wp_filesystem->move($uploaded_file['tmp_name'], $upload_file_path)) {
 				//error_log('EWPT: File moved successfully to ' . $upload_file_path);
 				$unzip_result = ewpt::handle_file_unzip($upload_file_path);
-				$wp_filesystem->delete($upload_file_path);
 
 				if (is_wp_error($unzip_result)) {
 					error_log('EWPT: Upload error: ' . $unzip_result->get_error_message());
@@ -1564,8 +1564,8 @@ function ewpt_essential_wp_tools_settings_page() {
 						wp_send_json_success(array(
 							'message' => "A module with the same name already exists.",
 							'module_name' => $module_name,
-							'merge_option' => true,
-							'module_active' => false, // Assuming it's not active; update as needed
+							'replace_option' => true,
+							'module_active' => false, // Assuming it's not active
 						));
 					} else {
 						$wp_filesystem->move($unzip_result['unzip_dir'] . DIRECTORY_SEPARATOR . $module_name, $module_dir);
@@ -1575,7 +1575,7 @@ function ewpt_essential_wp_tools_settings_page() {
 							wp_send_json_success(array(
 								'message' => "Module uploaded and unzipped successfully.",
 								'module_name' => $module_name,
-								'merge_option' => false,
+								'replace_option' => false,
 								'module_active' => false, // Assuming it's not active; update as needed
 							));
 						} else {
@@ -1594,7 +1594,7 @@ function ewpt_essential_wp_tools_settings_page() {
 		}
 	});
 
-	add_action('wp_ajax_ewpt_merge_module', function () {
+	add_action('wp_ajax_ewpt_replace_module', function () {
 		if (!ewpt::check_nonce('ewpt_upload_nonce')) {
 			wp_send_json_error(array('message' => '<strong>Security (nonce) verification failed!</strong><br/>Reload the page and try again.'));
 			exit;
@@ -1659,8 +1659,7 @@ function ewpt_essential_wp_tools_settings_page() {
 				}
 
 				$unzip_result = ewpt::handle_file_unzip($upload_file_path);
-				$wp_filesystem->delete($upload_file_path);
-
+				
 				if (is_wp_error($unzip_result)) {
 					error_log('EWPT: Upload error: ' . $unzip_result->get_error_message());
 					wp_send_json_error(array('message' => '<strong>Failed to unzip the module: ' . $unzip_result->get_error_message() . '</strong>'));
