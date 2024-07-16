@@ -1,8 +1,8 @@
-# EWPT - Essential WP Tools `v2.0.1`
+# EWPT - Essential WP Tools `v2.0.2`
 
 Essential WP Tools is the all-in-one solution for optimizing, securing, and enhancing your WordPress website. With a comprehensive suite of features, this plugin empowers website owners to streamline their site management, boost performance, and fortify security effortlessly. Project website: https://ewpt.ractstudio.com/
 
-## EWPT Website: **[Essential WP Tools](https://ewpt.ractstudio.com/)** `v2.0.1`
+## EWPT Website: **[Essential WP Tools](https://ewpt.ractstudio.com/)** `v2.0.2`
 ## WordPress.org: [Download on WordPress.org](https://wordpress.org/plugins/essential-wp-tools/)
 ## GitHub Release: [Download on Github Releases](https://github.com/RactStudio/essential-wp-tools/releases)
 ## EWPT Modules: [Download Modules Packages](https://github.com/RactStudio/ewpt-modules/)
@@ -12,8 +12,8 @@ Essential WP Tools is the all-in-one solution for optimizing, securing, and enha
 * Contributors:		    @mhrubel and @ractstudio
 * Donate link:			  https://www.patreon.com/RactStudio
 * Requires at least:  5. (WordPress Version)
-* Tested up to:		    6.5 (WordPress Version) (Should work on the later version)
-* Stable tag:			    2.0.1 (Essential WP Tools)
+* Tested up to:		    6.6 (WordPress Version) (Should work on the later version)
+* Stable tag:			    2.0.2 (Essential WP Tools)
 * Requires PHP:		    7.4
 * License:					  GPLv2 or later
 * License URI:			  https://www.gnu.org/licenses/gpl-2.0.html
@@ -68,9 +68,13 @@ Essential WP Tools is designed to work with any WordPress theme and plugin. Howe
 * **Commits**: https://github.com/RactStudio/essential-wp-tools/commits/2.0.1
 * **Compare**: https://github.com/RactStudio/essential-wp-tools/compare/2.0.0...2.0.1
 
+### v2.0.2
+* **Commits**: https://github.com/RactStudio/essential-wp-tools/commits/2.0.2
+* **Compare**: https://github.com/RactStudio/essential-wp-tools/compare/2.0.1...2.0.2
+
 ## Upgrade Notice
 
-Currently, there is a minor update available. Please upgrade to the newest version (EWPT v2.0.1).
+Currently, there is a minor update available. Please upgrade to the newest version (EWPT v2.0.2).
 
 ## Support
 
