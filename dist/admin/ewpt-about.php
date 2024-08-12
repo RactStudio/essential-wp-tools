@@ -5,16 +5,6 @@ if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
 
-use Essential\WP\Tools\ewpt as ewpt;
-
-// Check if current page is the target page
-if (isset($_GET['page']) && $_GET['page'] === 'ewpt-about') {
-	
-	// Enqueue EWPT Admin Style
-	ewpt::enqueue_ewpt_admin_style();
-
-}
-
 // Menu of the Module
 add_action( 'admin_menu', function () {
 	add_submenu_page(

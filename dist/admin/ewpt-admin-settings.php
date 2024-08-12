@@ -8,7 +8,7 @@ if (!defined('ABSPATH')) {
 use Essential\WP\Tools\ewpt as ewpt;
 
 // Check if current page is the target page
-if (isset($_GET['page']) && $_GET['page'] === 'essential-wp-tools') {
+if ( (isset($_GET['page']) && $_GET['page'] === 'essential-wp-tools') || ( isset($_GET['page']) && $_GET['page'] === 'ewpt-about' )) {
 	// Enqueue EWPT Admin Assets
 	ewpt::enqueue_ewpt_admin_assets();
 }
