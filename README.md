@@ -27,8 +27,11 @@ Essential WP Tools is the all-in-one solution for optimizing, securing, and enha
 3. [Ad Insert Hub](https://github.com/RactStudio/ad-insert-hub/): Manage ad placement on your website with our comprehensive module, compatible with Google Ads and other leading providers.
 4. [Maintenance Mode](https://github.com/RactStudio/maintenance-mode/): Maintenance Mode across your site, tailored to different user roles. Customize the maintenance page with our feature-rich customizer.
 5. [System Info](https://github.com/RactStudio/system-info/): Access PHP Info, WordPress Info, Database Info, Developer Info etc.
-6. [Email Manager Hub](https://github.com/RactStudio/email-manager-hub/): Manage your WordPress site's email sender's name and email address, and in future we will add stunning HTML template-based emails.
-7. [Sample Module](https://github.com/RactStudio/sample-module/): This is a sample module for developers to build module for EWPT.
+
+## Under Development Modules List:
+
+1. [Email Manager Hub](https://github.com/RactStudio/email-manager-hub/): Manage your WordPress site's email sender's name and email address, and in future we will add stunning HTML template-based emails.
+2. [Sample Module](https://github.com/RactStudio/sample-module/): This is a sample module for developers to build module for EWPT.
 
 ## Key Features
 
