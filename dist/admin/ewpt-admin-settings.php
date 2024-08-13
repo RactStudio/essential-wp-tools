@@ -961,7 +961,7 @@ function ewpt_essential_wp_tools_settings_page() {
 									by <a title="Author: Mahamudul Hasan Rubel" class="ewpt-module-author" target="_blank" href="https://mhr.ractstudio.com/">Mahamudul Hasan Rubel</a>
 								</td>
 								<td>
-									<a class="ewpt-button-link-text ewpt-enlarge-1x" title="Download from GitHub" href="<?php echo esc_url(EWPT_GITHUB_MODOULE_DOWNLOAD . 'ad-insert-hub.zip'); ?>" download="ad-insert-hub.zip">&#x1F4C1; Download</a>
+									<a class="ewpt-button-link-text ewpt-enlarge-1x" title="Download from GitHub" href="<?php echo esc_url(EWPT_GITHUB_MODULE_DOWNLOAD . 'ad-insert-hub.zip'); ?>" download="ad-insert-hub.zip">&#x1F4C1; Download</a>
 								</td>
 								<td>
 									<div class="ewpt-info-green"> Production </div>
@@ -978,7 +978,7 @@ function ewpt_essential_wp_tools_settings_page() {
 									by <a title="Author: Mahamudul Hasan Rubel" class="ewpt-module-author" target="_blank" href="https://mhr.ractstudio.com/">Mahamudul Hasan Rubel</a>
 								</td>
 								<td>
-									<a class="ewpt-button-link-text ewpt-enlarge-1x" title="Download from GitHub" href="<?php echo esc_url(EWPT_GITHUB_MODOULE_DOWNLOAD . 'email-manager-hub.zip'); ?>" download="email-manager-hub.zip">&#x1F4C1; Download</a>
+									<a class="ewpt-button-link-text ewpt-enlarge-1x" title="Download from GitHub" href="<?php echo esc_url(EWPT_GITHUB_MODULE_DOWNLOAD . 'email-manager-hub.zip'); ?>" download="email-manager-hub.zip">&#x1F4C1; Download</a>
 								</td>
 								<td>
 									<div class="ewpt-info-red"> Development </div>
@@ -995,7 +995,7 @@ function ewpt_essential_wp_tools_settings_page() {
 									by <a title="Author: RactStudio" class="ewpt-module-author" target="_blank" href="https://ractstudio.com/">RactStudio</a>
 								</td>
 								<td>
-									<a class="ewpt-button-link-text ewpt-enlarge-1x" title="Download from GitHub" href="<?php echo esc_url(EWPT_GITHUB_MODOULE_DOWNLOAD . 'essential-tools.zip'); ?>" download="essential-tools.zip">&#x1F4C1; Download</a>
+									<a class="ewpt-button-link-text ewpt-enlarge-1x" title="Download from GitHub" href="<?php echo esc_url(EWPT_GITHUB_MODULE_DOWNLOAD . 'essential-tools.zip'); ?>" download="essential-tools.zip">&#x1F4C1; Download</a>
 								</td>
 								<td>
 									<div class="ewpt-info-green"> Production </div>
@@ -1012,7 +1012,7 @@ function ewpt_essential_wp_tools_settings_page() {
 									by <a title="Author: RactStudio" class="ewpt-module-author" target="_blank" href="https://ractstudio.com/">RactStudio</a>
 								</td>
 								<td>
-									<a class="ewpt-button-link-text ewpt-enlarge-1x" title="Download from GitHub" href="<?php echo esc_url(EWPT_GITHUB_MODOULE_DOWNLOAD . 'maintenance-mode.zip'); ?>" download="maintenance-mode.zip">&#x1F4C1; Download</a>
+									<a class="ewpt-button-link-text ewpt-enlarge-1x" title="Download from GitHub" href="<?php echo esc_url(EWPT_GITHUB_MODULE_DOWNLOAD . 'maintenance-mode.zip'); ?>" download="maintenance-mode.zip">&#x1F4C1; Download</a>
 								</td>
 								<td>
 									<div class="ewpt-info-green"> Production </div>
@@ -1029,7 +1029,7 @@ function ewpt_essential_wp_tools_settings_page() {
 									by <a title="Author: RactStudio" class="ewpt-module-author" target="_blank" href="https://ractstudio.com/">RactStudio</a>
 								</td>
 								<td>
-									<a class="ewpt-button-link-text ewpt-enlarge-1x" title="Download from GitHub" href="<?php echo esc_url(EWPT_GITHUB_MODOULE_DOWNLOAD . 'sample-module.zip'); ?>" download="sample-module.zip">&#x1F4C1; Download</a>
+									<a class="ewpt-button-link-text ewpt-enlarge-1x" title="Download from GitHub" href="<?php echo esc_url(EWPT_GITHUB_MODULE_DOWNLOAD . 'sample-module.zip'); ?>" download="sample-module.zip">&#x1F4C1; Download</a>
 								</td>
 								<td>
 									<div class="ewpt-info-red"> Development </div>
@@ -1046,7 +1046,7 @@ function ewpt_essential_wp_tools_settings_page() {
 									by <a title="Author: Mahamudul Hasan Rubel" class="ewpt-module-author" target="_blank" href="https://mhr.ractstudio.com/">Mahamudul Hasan Rubel</a>
 								</td>
 								<td>
-									<a class="ewpt-button-link-text ewpt-enlarge-1x" title="Download from GitHub" href="<?php echo esc_url(EWPT_GITHUB_MODOULE_DOWNLOAD . 'social-share-hub.zip'); ?>" download="social-share-hub.zip">&#x1F4C1; Download</a>
+									<a class="ewpt-button-link-text ewpt-enlarge-1x" title="Download from GitHub" href="<?php echo esc_url(EWPT_GITHUB_MODULE_DOWNLOAD . 'social-share-hub.zip'); ?>" download="social-share-hub.zip">&#x1F4C1; Download</a>
 								</td>
 								<td>
 									<div class="ewpt-info-green"> Production </div>
@@ -1063,7 +1063,7 @@ function ewpt_essential_wp_tools_settings_page() {
 									by <a title="Author: RactStudio" class="ewpt-module-author" target="_blank" href="https://ractstudio.com/">RactStudio</a>
 								</td>
 								<td>
-									<a class="ewpt-button-link-text ewpt-enlarge-1x" title="Download from GitHub" href="<?php echo esc_url(EWPT_GITHUB_MODOULE_DOWNLOAD . 'system-info.zip'); ?>" download="system-info.zip">&#x1F4C1; Download</a>
+									<a class="ewpt-button-link-text ewpt-enlarge-1x" title="Download from GitHub" href="<?php echo esc_url(EWPT_GITHUB_MODULE_DOWNLOAD . 'system-info.zip'); ?>" download="system-info.zip">&#x1F4C1; Download</a>
 								</td>
 								<td>
 									<div class="ewpt-info-green"> Production </div>

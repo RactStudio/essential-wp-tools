@@ -39,7 +39,7 @@ DEFINE("EWPT_MODULES_PATH", EWPT_PLUGIN_PATH . 'modules/');
 DEFINE("EWPT_SITE_URL", "https://github.com/RactStudio/essential-wp-tools");
 DEFINE("EWPT_PLUGIN_WP_URL", "https://wordpress.org/plugins/".EWPT_FULL_SLUG."/");
 DEFINE("EWPT_GITHUB_REPO_URL", "https://github.com/RactStudio/".EWPT_FULL_SLUG."/");
-DEFINE("EWPT_GITHUB_MODOULE_DOWNLOAD", "https://raw.githubusercontent.com/RactStudio/ewpt-modules/main/");
+DEFINE("EWPT_GITHUB_MODULE_DOWNLOAD", "https://github.com/RactStudio/ewpt-modules/raw/main/");
 DEFINE("EWPT_DEV1_NAM", "RactStudio");
 DEFINE("EWPT_DEV1_SHORT", "RS");
 DEFINE("EWPT_DEV1_URL", "https://ewpt.ractstudio.com/");
