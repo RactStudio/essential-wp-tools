@@ -18,4 +18,4 @@ add_filter( 'admin_bar_menu',  function ($wp_admin_bar) {
 			'title' => str_replace('Howdy,', $new_howdy . ' ', $my_account->title),
 		)
 	);
-}, 25 );
+}, 9992 );
