@@ -9,9 +9,9 @@
  * Plugin Name: Essential WP Tools - WordPress Manager
  * Plugin URI: https://github.com/RactStudio/essential-wp-tools
  * Description: Customize Core Features, Optimize Speed, Boost Security, Improve SEO, and efficiently manage your WordPress site.
- * Version: 2.1.0
+ * Version: 2.1.1
  * Author: RactStudio
- * Author URI: https://mhr.ractstudio.com
+ * Author URI: https://ewpt.ractstudio.com
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  * Text Domain: essential-wp-tools
@@ -24,7 +24,7 @@ if (!defined('ABSPATH')) {
 //Defined Parameters
 DEFINE("EWPT_FULL_NAME", "Essential WP Tools");
 DEFINE("EWPT_SHORT_NAME", "EWPT");
-DEFINE("EWPT_VERSION_NO", "2.1.0");
+DEFINE("EWPT_VERSION_NO", "2.1.1");
 DEFINE("EWPT_PLUGIN_DESC", "Customize Core Features, Optimize Speed, Boost Security, Improve SEO, and efficiently manage your WordPress site.");
 DEFINE("EWPT_FULL_SLUG", "essential-wp-tools");
 DEFINE("EWPT_SHORT_SLUG", "ewpt");

@@ -4,7 +4,7 @@ Tags: performance, seo, security, share, maintenance
 Requires at least: 5.0
 Tested up to: 6.6
 Requires PHP: 7.1
-Stable tag: 2.1.0
+Stable tag: 2.1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://www.patreon.com/RactStudio
@@ -242,7 +242,7 @@ You can configure the plugin settings by navigating to the '<strong>EWPT Dashboa
 
 == Upgrade Notice ==
 
-Currently there is a major update available. Please update to the newest version (EWPT `v2.1.0`).
+Currently there is a minor update available. Please update to the newest version (EWPT `v2.1.1`).
 
 
 == Changelog ==
