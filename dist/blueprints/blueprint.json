@@ -1,0 +1,17 @@
+{
+    "landingPage": "\/wp-admin\/admin.php?page=essential-wp-tools",
+    "preferredVersions": {
+        "php": "8.2",
+        "wp": "6.6"
+    },
+    "phpExtensionBundles": [
+        "essential-wp-tools"
+    ],
+    "steps": [
+        {
+            "step": "login",
+            "username": "admin",
+            "password": "password"
+        }
+    ]
+}
