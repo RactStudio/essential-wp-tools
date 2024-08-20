@@ -3,7 +3,7 @@
 	"landingPage": "\/wp-admin\/admin.php?page=essential-wp-tools",
     "login": true,
     "siteOptions": {
-        "blogname": "essential-wp-tools"
+        "blogname": "Essential WP Tools"
     },
     "preferredVersions": {
         "php": "8.2",
