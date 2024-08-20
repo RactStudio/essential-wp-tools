@@ -1,5 +1,10 @@
 {
-    "landingPage": "\/wp-admin\/admin.php?page=essential-wp-tools",
+    "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"landingPage": "\/wp-admin\/admin.php?page=essential-wp-tools",
+    "login": true,
+    "siteOptions": {
+        "blogname": "essential-wp-tools"
+    },
     "preferredVersions": {
         "php": "8.2",
         "wp": "6.6"
