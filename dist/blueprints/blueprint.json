@@ -7,17 +7,15 @@
     },
     "preferredVersions": {
         "php": "8.2",
-        "wp": "6.6"
+        "wp": "latest"
     },
     "phpExtensionBundles": [
         "kitchen-sink"
     ],
+	"features": {
+		"networking": true
+	},
     "steps": [
-        {
-            "step": "login",
-            "username": "admin",
-            "password": "password"
-        },
         {
             "step": "installPlugin",
             "pluginZipFile": {
