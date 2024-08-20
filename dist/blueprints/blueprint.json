@@ -5,13 +5,23 @@
         "wp": "6.6"
     },
     "phpExtensionBundles": [
-        "essential-wp-tools"
+        "kitchen-sink"
     ],
     "steps": [
         {
             "step": "login",
             "username": "admin",
             "password": "password"
+        },
+        {
+            "step": "installPlugin",
+            "pluginZipFile": {
+                "resource": "wordpress.org\/plugins",
+                "slug": "essential-wp-tools"
+            },
+            "options": {
+                "activate": true
+            }
         }
     ]
 }
