@@ -2,7 +2,7 @@
 
 Essential WP Tools is the all-in-one solution for optimizing, securing, and enhancing your WordPress website. With a comprehensive suite of features, this plugin empowers website owners to streamline their site management, boost performance, and fortify security effortlessly. Project website: https://ewpt.ractstudio.com/
 
-## Try One Click [Live Preview](https://playground.wordpress.net/?mode=seamless&blueprint-url=https://raw.githubusercontent.com/RactStudio/essential-wp-tools/ewpt/dist/blueprints/blueprint.json)
+## Try One Click [Live Preview](https://playground.wordpress.net/?mode=seamless&storage=browser&blueprint-url=https://raw.githubusercontent.com/RactStudio/essential-wp-tools/ewpt/dist/blueprints/blueprint.json)
 
 ## EWPT Website: **[Essential WP Tools](https://ewpt.ractstudio.com/)**
 ## WordPress.org: [Download on WordPress.org](https://wordpress.org/plugins/essential-wp-tools/)
