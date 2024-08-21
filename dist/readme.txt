@@ -4,7 +4,7 @@ Tags: performance, seo, security, share, maintenance
 Requires at least: 5.0
 Tested up to: 6.6
 Requires PHP: 7.1
-Stable tag: 2.1.1
+Stable tag: 2.1.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://www.patreon.com/RactStudio
@@ -13,11 +13,13 @@ Essential WP Tools is an all-in-one solution for customizing features, optimizin
 
 
 == Description ==
-= Customize WordPress Features, Speed, Security, SEO, and efficiently manage your WordPress =
+=== Customize WordPress Features, Speed, Security, SEO, and efficiently manage your WordPress ===
 
 Essential WP Tools is an indispensable all-in-one solution for customizing WordPress core features, optimizing performance, securing websites, improving SEO, and enhancing any WordPress website. Its advanced modular features allow for tailored enhancements to meet your specific needs.
 
-EWPT plugin empowers website owners to streamline website management, boost performance, and fortify security effortlessly. Perfect for beginners and experts alike, EWPT makes managing your WordPress site easier and more efficient than ever.
+The EWPT plugin empowers website owners to streamline website management, boost performance, and effortlessly fortify security. Perfect for beginners and experts alike, EWPT makes managing your WordPress site easier and more efficient than ever.
+
+<strong>Try One Click [Live Preview](https://playground.wordpress.net/?mode=seamless&blueprint-url=https://raw.githubusercontent.com/RactStudio/essential-wp-tools/ewpt/dist/blueprints/blueprint.json)</strong>
 
 📁 Download Modules: [EWPT Modules Repository](https://github.com/RactStudio/ewpt-modules)
 👉 Official Website: [EWPT Official Website](https://ewpt.ractstudio.com/)
@@ -31,7 +33,7 @@ EWPT plugin empowers website owners to streamline website management, boost perf
 - [<strong>Social Share Hub</strong>](https://github.com/RactStudio/social-share-hub) : Integrate social share hub (buttons) into posts, pages, and custom post types with customization options.
 - [<strong>Ad Insert Hub</strong>](https://github.com/RactStudio/ad-insert-hub) : Manage ad placement on your website with our comprehensive module, compatible with Google Ads and other leading providers.
 - [<strong>Maintenance Mode</strong>](https://github.com/RactStudio/maintenance-mode) : Maintenance Mode across your site, tailored to different user roles. Customize the maintenance page with our feature-rich customizer.
-- [<strong>System Info</strong>](https://github.com/RactStudio/system-info) : Access PHP Info, WordPress Info, Database Info, and Developer Info etc.
+- [<strong>System Info</strong>](https://github.com/RactStudio/system-info) : Access PHP Info, WordPress Info, Database Info, and Developer Info, etc.
 
 Whether you're new to WordPress or a seasoned user, Essential WP Tools (EWPT) provides everything you need to customize default WordPress features, optimize speed, improve SEO, enhance security, and efficiently manage your WordPress website.
 
@@ -62,7 +64,7 @@ Whether you're new to WordPress or a seasoned user, Essential WP Tools (EWPT) pr
 - <strong>Disable Copy-Paste:</strong> Protect your content by disabling the ability for visitors to copy and paste text from your site.
 - <strong>Enforce HTTPS Redirects:</strong> Automatically redirect all traffic to HTTPS, ensuring secure communication between your site and its visitors.
 - <strong>Disable XML-RPC:</strong> Turn off the XML-RPC feature to reduce the risk of brute-force attacks on your site.
-- <strong>Disable REST-API:</strong> Turn off the REST-API, or enabled based on various user roles combination to reduce the security risk on your site.
+- <strong>Disable REST-API:</strong> Turn off the REST-API, or enable based on various user role combinations to reduce the security risk on your site.
 - <strong>Disable Author Archives:</strong> Prevent access to author archive pages, mitigating the risk of username enumeration attacks.
 
 === 6. Improved Content Management ===
@@ -99,7 +101,7 @@ These features in the "<strong>Essential Tools</strong>" module are designed to 
 - <strong>Customizable Icons Slots:</strong> Place Social Share Icons Slots in various locations within your posts, pages, or custom post types, such as before or after the content, ensuring the best visibility and engagement.
 
 === 4. Shortcodes for Easy Integration ===
-- <strong>Shortcode Generator:</strong> Auto generated shortcodes for social share buttons, allowing you to place them anywhere on your site, including within posts, pages, and widgets.
+- <strong>Shortcode Generator:</strong> Auto-generated shortcodes for social share buttons, allowing you to place them anywhere on your site, including within posts, pages, and widgets.
 
 === 6. Advanced Configuration Options ===
 - <strong>Admin Configuration Panel:</strong> A user-friendly admin panel allows you to configure all aspects of the social share buttons, including platform selection, icon design, and placement.
@@ -242,7 +244,7 @@ You can configure the plugin settings by navigating to the '<strong>EWPT Dashboa
 
 == Upgrade Notice ==
 
-Currently there is a minor update available. Please update to the newest version (EWPT `v2.1.1`).
+Currently there is a minor update available. Please update to the newest version (EWPT `v2.1.2`).
 
 
 == Changelog ==
