@@ -13,6 +13,7 @@
         "kitchen-sink"
     ],
 	"features": {
+		"storage": "browser",
 		"networking": true
 	},
     "steps": [
