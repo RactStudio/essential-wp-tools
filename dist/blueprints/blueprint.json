@@ -15,9 +15,6 @@
 	"features": {
 		"networking": true
 	},
-	"storage": {
-		"browser": true
-	},
 	"steps": [
 		{
 		    "step": "installPlugin",
