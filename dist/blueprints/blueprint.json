@@ -2,10 +2,10 @@
   "$schema": "https://playground.wordpress.net/blueprint-schema.json",
   "landingPage": "/wp-admin/admin.php?page=essential-wp-tools",
   "login": true,
-  "storageType": "browser",
-  "mode": "seamless",
   "siteOptions": {
-    "blogname": "Essential WP Tools"
+    "blogname": "Essential WP Tools",
+    "storageType": "browser",
+    "mode": "seamless"
   },
   "preferredVersions": {
     "php": "8.2",
