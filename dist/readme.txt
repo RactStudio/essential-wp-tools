@@ -13,13 +13,11 @@ Essential WP Tools is an all-in-one solution for customizing features, optimizin
 
 
 == Description ==
-=== Customize WordPress Features, Speed, Security, SEO, and efficiently manage your WordPress ===
+=== <center>Customize WordPress Features, Speed, Security, SEO, and efficiently manage your WordPress</center> ===
 
-Essential WP Tools is an indispensable all-in-one solution for customizing WordPress core features, optimizing performance, securing websites, improving SEO, and enhancing any WordPress website. Its advanced modular features allow for tailored enhancements to meet your specific needs.
+The Essential WP Tools plugin's advanced modular features empowers website owners to streamline website management, boost performance, and effortlessly fortify security. Perfect for beginners and experts alike, EWPT makes managing your WordPress site easier and more efficient than ever.
 
-The EWPT plugin empowers website owners to streamline website management, boost performance, and effortlessly fortify security. Perfect for beginners and experts alike, EWPT makes managing your WordPress site easier and more efficient than ever.
-
-<strong>Try One Click [Live Preview](https://playground.wordpress.net/?mode=seamless&blueprint-url=https://raw.githubusercontent.com/RactStudio/essential-wp-tools/ewpt/dist/blueprints/blueprint.json)</strong>
+<strong>Try One Click [Live Preview](https://playground.wordpress.net/?mode=seamless&storage=browser&blueprint-url=https://raw.githubusercontent.com/RactStudio/essential-wp-tools/ewpt/dist/blueprints/blueprint.json)</strong>
 
 📁 Download Modules: [EWPT Modules Repository](https://github.com/RactStudio/ewpt-modules)
 👉 Official Website: [EWPT Official Website](https://ewpt.ractstudio.com/)
