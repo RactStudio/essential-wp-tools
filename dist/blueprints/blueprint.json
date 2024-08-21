@@ -1,33 +1,33 @@
 {
-    "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
 	"landingPage": "\/wp-admin\/admin.php?page=essential-wp-tools",
-    "login": true,
-    "siteOptions": {
-        "blogname": "Essential WP Tools"
-    },
-    "preferredVersions": {
-        "php": "8.2",
-        "wp": "latest"
-    },
-    "phpExtensionBundles": [
-        "kitchen-sink"
-    ],
+	"login": true,
+	"siteOptions": {
+	"blogname": "Essential WP Tools"
+	},
+	"preferredVersions": {
+	"php": "8.2",
+	"wp": "latest"
+	},
+	"phpExtensionBundles": [
+	"kitchen-sink"
+	],
 	"features": {
 		"networking": true
 	},
 	"storage": {
 		"browser": true
 	},
-    "steps": [
-        {
-            "step": "installPlugin",
-            "pluginZipFile": {
-                "resource": "wordpress.org\/plugins",
-                "slug": "essential-wp-tools"
-            },
-            "options": {
-                "activate": true
-            }
-        }
-    ]
+	"steps": [
+		{
+		    "step": "installPlugin",
+		    "pluginZipFile": {
+			"resource": "wordpress.org\/plugins",
+			"slug": "essential-wp-tools"
+		    },
+		    "options": {
+			"activate": true
+		    }
+		}
+	]
 }
