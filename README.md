@@ -9,7 +9,6 @@ Essential WP Tools is the all-in-one solution for optimizing, securing, and enha
 ## GitHub Release: [Download on Github Releases](https://github.com/RactStudio/essential-wp-tools/releases)
 ## EWPT Modules: [Download Modules Packages](https://github.com/RactStudio/ewpt-modules/)
 
-
 ## At a Glance
 
 * Contributors:		    @mhrubel and @ractstudio
